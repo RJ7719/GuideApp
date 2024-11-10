@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-title" content="GC Smart Guide">
   <meta name="description" content="Add GC Smart Guide to your home screen with one click.">
   <link rel="manifest" href="manifest.json">
-  <title>GC Smart Guide</title>
+  <title>Add GC Smart Guide</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,6 +20,7 @@
       margin: 0;
       background-color: #f0f0f0;
       color: #333;
+      text-align: center;
     }
     button {
       padding: 1rem 2rem;
@@ -38,9 +39,9 @@
 <body>
   <h1>Add GC Smart Guide to Your Home Screen</h1>
   <p>Click the button below and follow the instructions to add GC Smart Guide as a web app on your iPad.</p>
-  <button onclick="addToHomeScreen()">Add to Home Screen</button>
+  <button onclick="showInstructions()">Add to Home Screen</button>
   <script>
-    function addToHomeScreen() {
+    function showInstructions() {
       alert('Tap the share icon in Safari, then select "Add to Home Screen".');
     }
   </script>
